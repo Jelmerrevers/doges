@@ -1,6 +1,5 @@
 body{
     font-family: sans-serif;
-    background:#000;
 }
 
 .container{
@@ -19,7 +18,7 @@ body{
 
 header{
     position:fixed;
-    background:#000;
+    background:#344a5f;
     width:100%;
     top:0;
     z-index:999;
@@ -29,25 +28,42 @@ nav {
     display:flex;
 }
 
-header nav li{
+nav>ul {
+    text-align: right;
+    width: 100%;
+}
+
+nav li{
     display:inline-flex;
 }
 
-header nav ul li a{
+nav ul li a{
     text-decoration:none;
 }
 
-header nav ul li a:hover{
-    transition: 0.2s;
-    color: #b3b3b3;
+nav ul li a[datatype="videos"]:after, nav ul li a[datatype="forums"]:after {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 8px;
+    vertical-align: 2px;
+    content: "";
+    border-top: .3em solid;
+    border-right: .3em solid transparent;
+    border-bottom: 0;
+    border-left: .3em solid transparent;
 }
 
-header>nav>ul>li>a{
-    color: #e5e5e5;
-    font-size: 14px;
+nav ul li a:hover{
+    transition: 0.2s;
+    color: #6e7b88;
+}
+
+nav>ul>li>a{
+    color:#fff;
+    font-size: 15px;
     padding: 23px 15px 23px 15px;
     margin: 0 -2px 0 -2px;
-    text-transform: uppercase;
 }
 
 .navImage{
@@ -57,12 +73,36 @@ header>nav>ul>li>a{
 
 .navImage img{
     width:100%;
-    max-width:120px;
+    max-width:130px;
     margin: 5px 5px 0px 5px;
 }
 
 .active{
     cursor: default;
     font-weight: 700;
-    color:#fff;
+    color: #6e7b88;
+}
+
+
+/**
+===================
+
+        MAIN
+
+===================
+**/
+
+
+main {
+    margin-top: 60px;
+}
+
+/* border-top: 1px solid #f0f0f0; */
+.breadCrumbs {
+    background-repeat: no-repeat;
+    background-image: url(http://pet.ancorathemes.com/wp-content/uploads/2015/07/slider_image_2.jpg);
+    background-size: cover;
+    height: 350px;
+    background-position-y: center;
+    background-position-x: right;
 }
