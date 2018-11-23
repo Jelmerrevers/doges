@@ -33,15 +33,16 @@ nav>ul {
     width: 100%;
 }
 
-nav li{
+nav>ul>li{
     display:inline-flex;
+    position:relative;
 }
 
 nav ul li a{
     text-decoration:none;
 }
 
-nav ul li a[datatype="videos"]:after, nav ul li a[datatype="forums"]:after {
+nav>ul>li>a[datatype="videos"]:after, nav>ul>li>a[datatype="forums"]:after {
     display: inline-block;
     width: 0;
     height: 0;
@@ -83,6 +84,48 @@ nav>ul>li>a{
     color: #6e7b88;
 }
 
+/* Dropdown of Videos and Forums */
+.navVideos, .navForums {
+    position: absolute;
+    left: 0;
+    top: 61px;
+    text-align: left;
+    background: #344a5f;
+    color: #fff;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s;
+    padding: 10px 0 10px 0;
+    width: max-content;
+    max-width: 320px;
+    border-top:1px solid #6e7b88;
+    box-shadow: 10px 10px 21px #0000004d;
+}
+
+li:hover .navVideos, li:hover .navForums{
+    opacity:1 !important;
+    visibility:visible !important;
+}
+
+.navVideos li {
+    display:block;
+}
+
+.navVideos li a, .navForums li a{
+    color: #fff;
+    padding: 10px 25px 10px 25px;
+    display: block;
+}
+.searchBox {
+    opacity:0;
+    visibility: hidden;
+}
+.searchBox input{
+    border: 0;
+    padding: 23px;
+    width: 300px;
+}
+
 
 /**
 ===================
@@ -107,7 +150,7 @@ main {
     background-position-x: right;
 }
 
-article {
+main section {
     padding:60px 0;
 }
 
