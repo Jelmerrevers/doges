@@ -2,6 +2,10 @@ body{
     font-family: sans-serif;
 }
 
+a{
+    text-decoration:none;
+}
+
 .container{
     max-width:1200px;
     width:100%;
@@ -36,10 +40,6 @@ nav>ul {
 nav>ul>li{
     display:inline-flex;
     position:relative;
-}
-
-nav ul li a{
-    text-decoration:none;
 }
 
 nav>ul>li>a[datatype="videos"]:after, nav>ul>li>a[datatype="forums"]:after {
@@ -100,6 +100,7 @@ nav>ul>li>a{
     max-width: 320px;
     border-top:1px solid #6e7b88;
     box-shadow: 10px 10px 21px #0000004d;
+    z-index:2;
 }
 
 li:hover .navVideos, li:hover .navForums{
@@ -163,3 +164,26 @@ h2:after{
     border-bottom: 1px solid #f0f0f0;
 }
 
+/**
+===================
+
+      FOOTER
+
+===================
+**/
+
+footer {
+    background: #344a5f;
+    padding:20px 0 20px 0;
+    display: flex;
+}
+
+.col{
+    display: inline-block;
+    width: 24%;
+    text-align: center;
+}
+
+.col>li>a{
+    color:#fff;
+}
