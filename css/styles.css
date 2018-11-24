@@ -370,7 +370,7 @@ footer input[type="submit"]:hover {
     .row {
         display:block;
     }
-    .col-4, .col-4:first-child {
+    .col-4, .col-4:first-child, .col-4:last-child {
         width:48%;
         margin: 10px 1%;
     }
