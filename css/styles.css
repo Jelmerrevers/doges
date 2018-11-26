@@ -51,11 +51,35 @@ h1 {
 h2 {
     font-size:30px;
     font-weight: 500;
+    margin-bottom: 20px;
 }
 
 h3 {
     font-size: 24px;
     font-weight:500;
+}
+
+input[type="text"], input[type="email"], input[type="password"], select, input[type="submit"] {
+    display:block;
+    border:0;
+    width:100%;
+    padding:15px;
+    margin: 12px 0;
+    border-radius: 5px;
+}
+
+input[type="text"], input[type="email"], input[type="password"], select {
+    background: #eee;
+}
+
+input[type="submit"] {
+    color:#fff;
+    background:#ff4d4d;
+    cursor:pointer;
+}
+
+input[type="submit"]:hover {
+    background:#344a5f;
 }
 
 /**
@@ -177,11 +201,11 @@ li:hover .navVideos, li:hover .navForums{
     cursor: pointer;
 }
 
-input[type=checkbox]{
+nav input[type=checkbox]{
     display: none;
 }
 
-input[type=checkbox]:checked ~ #menu{
+nav input[type=checkbox]:checked ~ #menu{
     display: block;
 }
 
@@ -239,9 +263,27 @@ main section {
     padding:60px 0;
 }
 
+.loginPage .row {
+    margin: 20px 0;
+}
+
+.col-2:first-child {
+    margin-left:0;
+}
+
+.col-2:last-child {
+    margin-right:0;
+}
+
 @media only screen and (max-width: 768px) {
     .breadCrumbs {
         background-position-x: -1080px;
+    }
+}
+
+@media only screen and (max-width: 568px) {
+    .breadCrumbs {
+        background-position-x: -1130px;
     }
 }
 
@@ -295,18 +337,9 @@ footer .heading, footer h5 {
     border-bottom:0;
 }
 
-footer input {
-    display:block;
-    border:0;
-    width:100%;
-    padding:15px;
-    margin: 12px 0;
-}
-
 footer input[type="submit"]:hover {
-    color:#fff;
-    background:#ff4d4d;
-    cursor:pointer;
+    background: #eee;
+    color:#000;
 }
 
 .copyrightFooter {
@@ -353,7 +386,8 @@ footer input[type="submit"]:hover {
 }
 
 .col-2 {
-    width: 50%;
+    width: 48%;
+    margin: 0 1%;
 }
 
 .col-4:first-child{
