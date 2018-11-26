@@ -388,6 +388,18 @@ footer input[type="submit"]:hover {
 .col-2 {
     width: 48%;
     margin: 0 1%;
+
+}
+
+.col-6 {
+
+    padding: 30px 30px 30px 30px;
+    width: 60%;
+}
+
+.self {
+    float: left;
+    margin: 15px;
 }
 
 .col-4:first-child{
