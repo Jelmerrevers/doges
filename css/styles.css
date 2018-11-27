@@ -400,7 +400,26 @@ footer input[type="submit"]:hover {
 
 .col-8 {
     padding: 40px 10px 70px 32px;
-    width: 20
+}
+
+.hond {
+    width: 350px;
+    height: 200px;
+    max-height:auto;
+    max-width: auto;
+}
+.overonspage {
+    max-height:auto;
+    max-width: auto;
+}
+
+iframe {
+    margin-left: 375px;
+    width: 500px;
+    height: 300px;
+    border-width: thin;
+    border-style: solid;
+    border-color: #344a5f;
 }
 
 .self {
