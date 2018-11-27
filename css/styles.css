@@ -393,17 +393,20 @@ footer input[type="submit"]:hover {
 }
 
 .col-6 {
+    border-radius: 50%;
     padding: 30px 30px 30px 30px;
     width: 60%;
 }
 
 .col-8 {
-    padding: 40px 10px 70px 32px
+    padding: 40px 10px 70px 32px;
+    width: 20
 }
 
 .self {
     float: left;
-    margin: 15px;
+    margin: 10px;
+    border-radius: 50%;
 }
 
 .col-4:first-child{
