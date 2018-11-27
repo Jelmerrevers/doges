@@ -4,35 +4,6 @@
     <list default="true" id="cd9e2b37-dc1b-4f45-a6b9-8965a0f84e0e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/android-icon-144x144.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/android-icon-192x192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/android-icon-36x36.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/android-icon-48x48.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/android-icon-72x72.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/android-icon-96x96.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/apple-icon-114x114.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/apple-icon-120x120.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/apple-icon-144x144.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/apple-icon-152x152.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/apple-icon-180x180.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/apple-icon-57x57.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/apple-icon-60x60.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/apple-icon-72x72.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/apple-icon-76x76.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/apple-icon-precomposed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/apple-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/favicon-16x16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/favicon-32x32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/favicon-96x96.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/faviconpaw.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/ms-icon-144x144.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/ms-icon-150x150.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/ms-icon-310x310.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/ms-icon-70x70.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/overons.html" beforeDir="false" afterPath="$PROJECT_DIR$/overons.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/video.html" beforeDir="false" afterPath="$PROJECT_DIR$/video.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -70,21 +41,21 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="244" />
-          <entry key="html" value="1076" />
+          <entry key="css" value="362" />
+          <entry key="html" value="1442" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="244" />
-          <entry key="HTML" value="1076" />
+          <entry key="CSS" value="362" />
+          <entry key="HTML" value="1442" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="544">
@@ -106,7 +77,7 @@
         <entry file="file://$PROJECT_DIR$/overons.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
-              <caret line="19" column="65" selection-start-line="19" selection-start-column="65" selection-end-line="19" selection-end-column="65" />
+              <caret line="19" column="65" selection-end-line="177" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -114,17 +85,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/video.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="65" selection-start-line="19" selection-start-column="65" selection-end-line="19" selection-end-column="65" />
+            <state relative-caret-position="317">
+              <caret line="68" column="44" selection-start-line="68" selection-start-column="44" selection-end-line="68" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6613">
-              <caret line="389" column="17" lean-forward="true" selection-start-line="389" selection-start-column="17" selection-end-line="389" selection-end-column="17" />
+            <state relative-caret-position="440">
+              <caret line="395" column="20" selection-start-line="395" selection-start-column="20" selection-end-line="395" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -152,12 +123,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/webfonts/over ons.html" />
-        <option value="$PROJECT_DIR$/css/styles.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/fontawesome.css" />
         <option value="$PROJECT_DIR$/overons.html" />
-        <option value="$PROJECT_DIR$/video.html" />
         <option value="$PROJECT_DIR$/login.html" />
+        <option value="$PROJECT_DIR$/video.html" />
+        <option value="$PROJECT_DIR$/css/styles.css" />
       </list>
     </option>
   </component>
@@ -168,8 +139,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-130" />
-    <option name="y" value="85" />
+    <option name="x" value="325" />
+    <option name="y" value="-23" />
     <option name="width" value="979" />
     <option name="height" value="1040" />
   </component>
@@ -194,6 +165,11 @@
               <item name="doges" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="doges" type="b2602c69:ProjectViewProjectNode" />
+              <item name="doges" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -202,6 +178,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SearchEverywhereHistoryKey" value="row&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -231,15 +208,15 @@
       <updated>1542971332534</updated>
       <workItem from="1542971333893" duration="1000" />
       <workItem from="1542971361355" duration="101000" />
-      <workItem from="1543226276140" duration="15453000" />
+      <workItem from="1543226276140" duration="21242000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15555000" />
+    <option name="totallyTimeSpent" value="21344000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18724832" />
@@ -282,13 +259,6 @@
         <state relative-caret-position="-176" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6613">
-          <caret line="389" column="17" lean-forward="true" selection-start-line="389" selection-start-column="17" selection-end-line="389" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/fontawesome.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -303,17 +273,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/overons.html">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="65" selection-start-line="19" selection-start-column="65" selection-end-line="19" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/video.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="65" selection-start-line="19" selection-start-column="65" selection-end-line="19" selection-end-column="65" />
+        <state relative-caret-position="544">
+          <caret line="32" column="81" selection-start-line="32" selection-start-column="81" selection-end-line="32" selection-end-column="81" />
         </state>
       </provider>
     </entry>
@@ -324,10 +287,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/overons.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="81" selection-start-line="32" selection-start-column="81" selection-end-line="32" selection-end-column="81" />
+        <state relative-caret-position="323">
+          <caret line="19" column="65" selection-end-line="177" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="68" column="44" selection-start-line="68" selection-start-column="44" selection-end-line="68" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="395" column="20" selection-start-line="395" selection-start-column="20" selection-end-line="395" selection-end-column="20" />
         </state>
       </provider>
     </entry>

@@ -374,6 +374,7 @@ footer input[type="submit"]:hover {
 .row {
     overflow:hidden;
     display: flex;
+    width: 100%;
 }
 
 .col-4, .col-2{
@@ -394,6 +395,10 @@ footer input[type="submit"]:hover {
 .col-6 {
     padding: 30px 30px 30px 30px;
     width: 60%;
+}
+
+.col-8 {
+    padding: 40px 10px 70px 32px
 }
 
 .self {
