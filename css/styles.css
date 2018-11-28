@@ -400,6 +400,7 @@ footer input[type="submit"]:hover {
 
 .col-8 {
     padding: 40px 10px 70px 32px;
+    float: left;
 }
 
 .hond {
@@ -414,7 +415,7 @@ footer input[type="submit"]:hover {
 }
 
 iframe {
-    margin-left: 375px;
+    margin-left: 350px;
     width: 500px;
     height: 300px;
     border-width: thin;
@@ -430,12 +431,12 @@ iframe {
 
 .col-4:first-child{
     margin-left:0;
-    width:24%;
+    width:30%;
 }
 
 .col-4:last-child{
     margin-right:0;
-    width:24%;
+    width:60%;
 }
 
 @media only screen and (max-width: 992px) {
