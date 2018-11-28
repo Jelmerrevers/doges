@@ -49,6 +49,16 @@ h1 {
     font-weight: 800;
 }
 
+.homepag {
+    font-size:15px;
+    font-family: Arial, sans-serif;
+}
+
+input[type="search"] {
+    padding: 0%;
+}
+
+
 h2 {
     font-size:30px;
     font-weight: 500;
@@ -274,11 +284,6 @@ main section {
 
 .col-2:last-child {
     margin-right:0;
-}
-
-.homepag {
-    font-size:20px;
-    font-family:Arial, Helvetica, sans-serif;
 }
 
 @media only screen and (max-width: 768px) {
