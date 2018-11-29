@@ -1,22 +1,83 @@
 /**
 ===================
 
+    RESET CSS
+
+===================
+**/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/**
+===================
+
   GENERAL SETTINGS
 
 ===================
 **/
 
+/*
 @font-face {
     font-family: Bree Serif;
     src: url(../webfonts/BreeSerif-Regular.otf);
+}*/
+
+@font-face {
+    font-family: 'Bree Serif';
+    src: url('../webfonts/breeserif-regular-webfont.woff2') format('woff2'),
+         url('../webfonts/breeserif-regular-webfont.woff') format('woff');
 }
 
 *, ::after, ::before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
 
 body{
     font-family: sans-serif;
+    background-image: url(../img/background.png);
 }
 
 a{
@@ -49,9 +110,8 @@ h1 {
     font-weight: 800;
 }
 
-.homepag {
+.homepage {
     font-size:15px;
-    font-family: Arial, sans-serif;
 }
 
 input[type="search"] {
@@ -70,7 +130,7 @@ h3 {
     font-weight:500;
 }
 
-input[type="text"], input[type="email"], input[type="password"], select, input[type="submit"] {
+input[type="text"], input[type="email"], input[type="password"], select, input[type="submit"], input[type="search"] {
     display:block;
     border:0;
     width:100%;
@@ -80,7 +140,8 @@ input[type="text"], input[type="email"], input[type="password"], select, input[t
 }
 
 input[type="text"], input[type="email"], input[type="password"], select {
-    background: #eee;
+    /* background: #eee; | Als er word besloten om de background image eruit te halen, deze weer activeren */
+    border: 1px solid #cecece;
 }
 
 input[type="submit"] {
@@ -124,7 +185,7 @@ nav>ul>li{
     position:relative;
 }
 
-nav>ul>li>a[datatype="videos"]:after, nav>ul>li>a[datatype="forums"]:after {
+nav>ul>li>a[type="videos"]:after, nav>ul>li>a[type="forums"]:after {
     display: inline-block;
     width: 0;
     height: 0;
@@ -135,6 +196,18 @@ nav>ul>li>a[datatype="videos"]:after, nav>ul>li>a[datatype="forums"]:after {
     border-right: .3em solid transparent;
     border-bottom: 0;
     border-left: .3em solid transparent;
+}
+
+nav>ul>li>input[type="search"] {
+    margin:0;
+}
+
+.showmetest {
+    display:none;
+}
+
+nav>ul>li>input[type="search"]:active ~ .showmetest {
+    display:block;
 }
 
 nav>ul>li>a{
@@ -150,9 +223,8 @@ nav>ul>li>a{
 }
 
 .navImage img{
-    width:100%;
     max-width:130px;
-    margin: 5px 5px 0px 5px;
+    margin: 6px 0px 0px 5px;
 }
 
 .active{
@@ -286,6 +358,69 @@ main section {
     margin-right:0;
 }
 
+.input-group-10 {
+    width:79%;
+}
+
+.input-group-6 {
+    width: 49%;
+}
+
+.input-group-2 {
+    width:19%
+}
+.input-group-6, .input-group-2, .input-group-10 {
+    float: left;
+    overflow: auto;
+    margin: 0 1% 0 0;
+}
+.input-group-6:nth-of-type(2), .input-group-10:nth-of-type(2), .input-group-2:nth-of-type(2) {
+    margin: 0 0 0 1%;
+}
+
+.forumPage table {
+    display: inline-table;
+    width: 100%;
+    margin-top: 25px;
+}
+
+.forumPage table thead {
+    background: #344a5f;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.forumPage table>thead>tr>td:last-child {
+    text-align:center;
+}
+
+.forumPage table>thead>tr>th, table>tbody>tr>th, table>thead>tr>td, table>tbody>tr>td {
+    padding: 16px 16px 20px 16px;
+    border-bottom:1px solid #cecece;
+}
+
+.forumPage table>tbody>tr>td>p {
+    margin-top: 5px;
+}
+
+.forumPage table>tbody>tr>td>h3>a {
+    color:inherit
+}
+
+.forumPage table>tbody>tr>td>h3>a:hover, .forumPage table>tbody>tr>td>p>a:hover {
+    color:#344a5f;
+}
+
+.forumPage table>tbody>tr>td>p>a {
+    color:#000;
+}
+
+.forumPage table>tbody>tr>td:nth-of-type(2) {
+    text-align:right;
+    border-right: 1px solid #cecece;
+}
+
 @media only screen and (max-width: 768px) {
     .breadCrumbs {
         background-position-x: -1080px;
@@ -298,13 +433,6 @@ main section {
     }
 }
 
-    /**
-    ===================
-
-    SECIION HOMEPAGE FIRST COLUMN
-
-    ===================
-    **/
 
 
 
@@ -388,6 +516,19 @@ footer input[type="submit"]:hover {
     width: 100%;
 }
 
+.videopage .row {
+    display:inline-block;
+}
+
+.col-3 {
+    float: left;
+    max-width: 33%;
+}
+
+.videopage .col-3 {
+    margin: 20px 0;
+}
+
 .col-4, .col-2{
     float: left;
 }
@@ -398,9 +539,8 @@ footer input[type="submit"]:hover {
 }
 
 .col-2 {
-    width: 48%;
+    width: 49%;
     margin: 0 1%;
-
 }
 
 .col-6 {
