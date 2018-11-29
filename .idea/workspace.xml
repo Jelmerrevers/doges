@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cd9e2b37-dc1b-4f45-a6b9-8965a0f84e0e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forums.html" beforeDir="false" afterPath="$PROJECT_DIR$/forums.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forums_articles.html" beforeDir="false" afterPath="$PROJECT_DIR$/forums_articles.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forums_view.html" beforeDir="false" afterPath="$PROJECT_DIR$/forums_view.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/overons.html" beforeDir="false" afterPath="$PROJECT_DIR$/overons.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/video.html" beforeDir="false" afterPath="$PROJECT_DIR$/video.html" afterDir="false" />
-    </list>
+    <list default="true" id="cd9e2b37-dc1b-4f45-a6b9-8965a0f84e0e" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,13 +41,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="994" />
+          <entry key="css" value="999" />
           <entry key="html" value="3792" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="994" />
+          <entry key="CSS" value="999" />
           <entry key="HTML" value="3792" />
         </counts>
       </usages-collector>
@@ -65,11 +55,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="88" column="43" selection-start-line="88" selection-start-column="43" selection-end-line="88" selection-end-column="43" />
+            <state relative-caret-position="266">
+              <caret line="90" column="105" selection-start-line="90" selection-start-column="105" selection-end-line="90" selection-end-column="105" />
             </state>
           </provider>
         </entry>
@@ -128,11 +118,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="681" column="12" selection-start-line="681" selection-start-column="12" selection-end-line="681" selection-end-column="12" />
+            <state relative-caret-position="595">
+              <caret line="680" column="15" selection-start-line="680" selection-start-column="15" selection-end-line="680" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -250,12 +240,12 @@
       <workItem from="1543349703389" duration="8458000" />
       <workItem from="1543418450075" duration="6950000" />
       <workItem from="1543510915260" duration="47000" />
-      <workItem from="1543511074983" duration="10068000" />
+      <workItem from="1543511074983" duration="10516000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47946000" />
+    <option name="totallyTimeSpent" value="48394000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -345,17 +335,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="88" column="43" selection-start-line="88" selection-start-column="43" selection-end-line="88" selection-end-column="43" />
+        <state relative-caret-position="595">
+          <caret line="680" column="15" selection-start-line="680" selection-start-column="15" selection-end-line="680" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/styles.css">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="681" column="12" selection-start-line="681" selection-start-column="12" selection-end-line="681" selection-end-column="12" />
+        <state relative-caret-position="266">
+          <caret line="90" column="105" selection-start-line="90" selection-start-column="105" selection-end-line="90" selection-end-column="105" />
         </state>
       </provider>
     </entry>
