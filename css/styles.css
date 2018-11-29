@@ -635,7 +635,6 @@ footer .col-3 li:first-child{
 }
 
 .col-6 {
-    border-radius: 50%;
     padding: 30px 30px 30px 30px;
     width: 50%;
 }
@@ -655,6 +654,14 @@ footer .col-3 li:first-child{
 .overonspage {
     max-height:auto;
     max-width: auto;
+}
+
+.overonspage p {
+    margin-top: 15px;
+}
+
+.overonspage p:first-child {
+    margin-top:0;
 }
 
 iframe {
@@ -688,6 +695,12 @@ footer .col-3:last-child {
         max-width:100%;
         margin: 25px 0;
         width:100%;
+    }
+    .col-6 {
+        width: 100%;
+        display: block;
+        overflow: auto;
+        padding:0 0 25px 0;
     }
 }
 
