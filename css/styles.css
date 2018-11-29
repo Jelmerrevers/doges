@@ -75,11 +75,6 @@ table {
     box-sizing: border-box;
 }
 
-body{
-    font-family: sans-serif;
-    background-image: url(../img/background.png);
-}
-
 a{
     text-decoration:none;
     color:#fff;
@@ -87,7 +82,12 @@ a{
 }
 
 a:hover{
-    color: #ff4d4d;
+    color: #ff4d4d !important;
+}
+
+body{
+    font-family: sans-serif;
+    background-image: url(../img/background.png);
 }
 
 .container{
@@ -130,7 +130,7 @@ h3 {
     font-weight:500;
 }
 
-input[type="text"], input[type="email"], input[type="password"], select, input[type="submit"], input[type="search"] {
+input[type="text"], input[type="email"], input[type="password"], select, input[type="submit"], input[type="search"], textarea {
     display:block;
     border:0;
     width:100%;
@@ -139,7 +139,7 @@ input[type="text"], input[type="email"], input[type="password"], select, input[t
     border-radius: 5px;
 }
 
-input[type="text"], input[type="email"], input[type="password"], input[type="search"], select {
+input[type="text"], input[type="email"], input[type="password"], input[type="search"], select, textarea {
     /* background: #eee; | Als er word besloten om de background image eruit te halen, deze weer activeren */
     border: 1px solid #cecece;
 }
@@ -152,6 +152,12 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
     background:#344a5f;
+}
+
+textarea {
+    height: 250px;
+    width:100%;
+    max-width:100%;
 }
 
 /**
@@ -348,6 +354,10 @@ main section {
     padding:25px 0;
 }
 
+main section:first-child {
+    padding-top:40px;
+}
+
 .homepage article:nth-of-type(1) {
     margin-top:25px;
 }
@@ -394,6 +404,26 @@ main section {
     overflow:auto;
     margin: 25px 0;
 }
+.navigation {
+    width: 100%;
+    display: block;
+    border-bottom: 1px solid #cecece;
+    padding-bottom: 20px;
+}
+
+.navigation a {
+    color:#000;
+}
+
+.navigation a:after {
+    content: " »";
+    font-size: 14px;
+    margin: 0 5px;
+}
+
+.navigation a:last-child:after {
+    content:initial;
+}
 
 .forumPage table {
     display: inline-table;
@@ -411,7 +441,7 @@ main section {
     font-weight: 700;
 }
 
-.forumPage table>thead>tr>td:last-child {
+.forumPage .forumCategories>thead>tr>td:last-child {
     text-align:center;
 }
 
@@ -424,11 +454,11 @@ main section {
     margin-top: 5px;
 }
 
-.forumPage table>tbody>tr>td>h3>a {
+.forumPage table>tbody>tr>td>h3>a, .forumBox>span>a, .forumBox>.forum_userInformation>span>a {
     color:inherit
 }
 
-.forumPage table>tbody>tr>td>h3>a:hover, .forumPage table>tbody>tr>td>p>a:hover {
+.forumPage table>tbody>tr>td>h3>a:hover {
     color:#344a5f;
 }
 
@@ -436,9 +466,48 @@ main section {
     color:#000;
 }
 
-.forumPage table>tbody>tr>td:nth-of-type(2) {
+.forumPage .forumCategories>tbody>tr>td:nth-of-type(2) {
     text-align:right;
     border-right: 1px solid #cecece;
+}
+
+.forumPage article {
+    margin:25px 0;
+}
+
+.forumPage .forumBox {
+    border-bottom: 1px solid #cecece;
+    padding: 25px 0;
+}
+
+.forumPage .forumBox .forum_userInformation {
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.forumPage .forumBox .forum_userInformation img {
+    width: 60px;
+    height: 60px;
+}
+
+.forumBox p {
+    margin-bottom:25px;
+}
+
+.forumPage .forumBox .forum_userInformation span {
+    position: absolute;
+    top: 10px;
+    left: 70px;
+    display: block;
+}
+
+.forumPage .forumBox .forum_userInformation span:last-child {
+    top:35px;
+}
+
+.forumBox>span {
+    float:right;
+    margin-left:25px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -577,7 +646,8 @@ footer .col-3 li:first-child{
 }
 
 .hond {
-    width: 350px;
+    width:100%;
+    max-width: 350px;
     height: 200px;
     max-height:auto;
     max-width: auto;
@@ -622,7 +692,7 @@ footer .col-3:last-child {
 }
 
 @media only screen and (max-width: 768px) {
-    .col-2, .col-3 {
+     .col-2, .col-3 {
         width: 100% !important;
         float:none;
         padding:15px 0;
