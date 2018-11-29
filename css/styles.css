@@ -608,6 +608,7 @@ footer input[datatype="submit"]:hover {
 
 .videopage .col-3 {
     margin: 20px 0;
+    height: 300px;
 }
 
 .videopage .row .col-3 p {
@@ -617,8 +618,6 @@ footer input[datatype="submit"]:hover {
 .col-2, .col-3{
     float: left;
 }
-
-
 
 .col-2 {
     width: 49%;
