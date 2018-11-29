@@ -525,14 +525,30 @@ main section:first-child {
 }
 
 @media only screen and (max-width: 768px) {
-    .breadCrumbs {
+    .breadCrumbs-home {
         background-position-x: -1080px;
+    }
+    .breadCrumbs-overons {
+        background-position-x: -700px;
+    }
+    .breadCrumbs-forum {
+        background-position-x: -200px;
     }
 }
 
 @media only screen and (max-width: 568px) {
-    .breadCrumbs {
+    .breadCrumbs-home {
         background-position-x: -1130px;
+    }
+    .breadCrumbs-forum {
+        background-position-x: -550px;
+    }
+    .forumPage .forumCategories>tbody>tr>td:nth-of-type(2), .forumPage .forumCategories>thead>tr>td:nth-of-type(2){
+        display:none;
+    }
+    .forumPage table {
+        display: block;
+        overflow: auto;
     }
 }
 
