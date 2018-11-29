@@ -139,7 +139,7 @@ input[type="text"], input[type="email"], input[type="password"], select, input[t
     border-radius: 5px;
 }
 
-input[type="text"], input[type="email"], input[type="password"], select {
+input[type="text"], input[type="email"], input[type="password"], input[type="search"], select {
     /* background: #eee; | Als er word besloten om de background image eruit te halen, deze weer activeren */
     border: 1px solid #cecece;
 }
@@ -185,7 +185,7 @@ nav>ul>li{
     position:relative;
 }
 
-nav>ul>li>a[type="videos"]:after, nav>ul>li>a[type="forums"]:after {
+nav>ul>li>a[datatype="videos"]:after, nav>ul>li>a[datatype="forums"]:after {
     display: inline-block;
     width: 0;
     height: 0;
@@ -198,7 +198,7 @@ nav>ul>li>a[type="videos"]:after, nav>ul>li>a[type="forums"]:after {
     border-left: .3em solid transparent;
 }
 
-nav>ul>li>input[type="search"] {
+nav>ul>li>input[datatype="search"] {
     margin:0;
 }
 
@@ -206,7 +206,7 @@ nav>ul>li>input[type="search"] {
     display:none;
 }
 
-nav>ul>li>input[type="search"]:active ~ .showmetest {
+nav>ul>li>input[datatype="search"]:active ~ .showmetest {
     display:block;
 }
 
@@ -237,7 +237,7 @@ nav>a>img{
 .navVideos, .navForums {
     position: absolute;
     left: 0;
-    top: 61px;
+    top: 66px;
     text-align: left;
     background: #344a5f;
     color: #fff;
@@ -290,6 +290,7 @@ nav input[type=checkbox]{
 
 nav input[type=checkbox]:checked ~ #menu{
     display: block;
+    padding-bottom: 25px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -304,6 +305,7 @@ nav input[type=checkbox]:checked ~ #menu{
     }
     nav>ul>li {
         display:block;
+        padding-right: 15px;
     }
     nav>ul>li>a {
         display: block;
@@ -344,6 +346,10 @@ main {
 
 main section {
     padding:25px 0;
+}
+
+.homepage article:nth-of-type(1) {
+    margin-top:25px;
 }
 
 .homepage article {
@@ -477,7 +483,7 @@ footer .heading, footer h5 {
     margin-bottom:15px;
 }
 
-footer input[type="submit"]:hover {
+footer input[datatype="submit"]:hover {
     background: #eee;
     color:#000;
 }
@@ -535,14 +541,11 @@ footer input[type="submit"]:hover {
     margin-top: 15px;
 }
 
-.col-4, .col-2, .col-3{
+.col-2, .col-3{
     float: left;
 }
 
-.col-4 {
-    width: 23%;
-    margin: 0 1%;
-}
+
 
 .col-2 {
     width: 49%;
@@ -611,10 +614,6 @@ footer .col-3:last-child {
     .row {
         display:block;
     }
-    .col-4, .col-4:first-child, .col-4:last-child {
-        width:48%;
-        margin: 25px 1%;
-    }
     .col-3 {
         max-width:100%;
         margin: 25px 0;
@@ -623,7 +622,7 @@ footer .col-3:last-child {
 }
 
 @media only screen and (max-width: 768px) {
-    .col-4, .col-2, .col-3 {
+    .col-2, .col-3 {
         width: 100% !important;
         float:none;
         padding:15px 0;
