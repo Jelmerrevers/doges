@@ -130,7 +130,7 @@ h3 {
     font-weight:500;
 }
 
-input[type="text"], input[type="email"], input[type="password"], select, input[type="submit"], input[type="search"], textarea {
+input[type="text"], input[type="email"], input[type="password"], select, input[type="submit"], input[type="search"], textarea, .bijdrageSchrijven>label {
     display:block;
     border:0;
     width:100%;
@@ -139,18 +139,18 @@ input[type="text"], input[type="email"], input[type="password"], select, input[t
     border-radius: 5px;
 }
 
-input[type="text"], input[type="email"], input[type="password"], input[type="search"], select, textarea {
+input[type="text"], input[type="email"], input[type="password"], input[type="search"], select, textarea, .bijdrageSchrijven>label {
     /* background: #eee; | Als er word besloten om de background image eruit te halen, deze weer activeren */
     border: 1px solid #cecece;
 }
 
-input[type="submit"] {
+input[type="submit"], .bijdrageSchrijven>label {
     color:#fff;
     background:#ff4d4d;
     cursor:pointer;
 }
 
-input[type="submit"]:hover {
+input[type="submit"]:hover, .bijdrageSchrijven>label:hover {
     background:#344a5f;
 }
 
@@ -206,14 +206,6 @@ nav>ul>li>a[datatype="videos"]:after, nav>ul>li>a[datatype="forums"]:after {
 
 nav>ul>li>input[datatype="search"] {
     margin:0;
-}
-
-.showmetest {
-    display:none;
-}
-
-nav>ul>li>input[datatype="search"]:active ~ .showmetest {
-    display:block;
 }
 
 nav>ul>li>a{
@@ -524,12 +516,31 @@ main section:first-child {
     margin-left:25px;
 }
 
+.bijdrageSchrijven {
+    overflow:auto;
+}
+
+bijdrageSchrijven input[type="checkbox"]:checked ~ #artikelWeergave {
+    display:block;
+}
+
+.bijdrageSchrijven>label {
+    text-align: center;
+    width: 220px;
+    float: right;
+}
+
+.bijdrageSchrijven input[type="checkbox"], #artikelWeergave {
+    display:none;
+}
+
 @media only screen and (max-width: 768px) {
     .breadCrumbs-home {
         background-position-x: -1080px;
     }
     .breadCrumbs-overons {
-        background-position-x: -700px;
+        background-position-x: -380px;
+        background-position-y: top;
     }
     .breadCrumbs-forum {
         background-position-x: -200px;
