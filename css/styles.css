@@ -676,6 +676,13 @@ iframe {
     border-color: #344a5f;
 }
 
+.fvideo{
+    margin: 0 auto;
+    height: 150px;
+    width: 100%;
+
+}
+
 .self {
     float: left;
     margin: 10px;
