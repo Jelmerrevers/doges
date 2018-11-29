@@ -217,12 +217,12 @@ nav>ul>li>a{
     margin: 0 -2px 0 -2px;
 }
 
-.navImage{
+nav>a{
     margin:0;
     padding:0;
 }
 
-.navImage img{
+nav>a>img{
     max-width:130px;
     margin: 6px 0px 0px 5px;
 }
@@ -343,7 +343,11 @@ main {
 }
 
 main section {
-    padding:60px 0;
+    padding:25px 0;
+}
+
+.homepage article {
+    margin-bottom:25px;
 }
 
 .loginPage .row {
@@ -369,19 +373,29 @@ main section {
 .input-group-2 {
     width:19%
 }
+
 .input-group-6, .input-group-2, .input-group-10 {
     float: left;
     overflow: auto;
     margin: 0 1% 0 0;
 }
+
 .input-group-6:nth-of-type(2), .input-group-10:nth-of-type(2), .input-group-2:nth-of-type(2) {
     margin: 0 0 0 1%;
+}
+
+.contentFilter {
+    overflow:auto;
+    margin: 25px 0;
 }
 
 .forumPage table {
     display: inline-table;
     width: 100%;
-    margin-top: 25px;
+}
+
+.forumPage table>tbody>tr:nth-of-type(odd) {
+    background: #ffffff61;
 }
 
 .forumPage table thead {
@@ -463,19 +477,6 @@ footer .heading, footer h5 {
     margin-bottom:15px;
 }
 
-.col-4>li {
-    border-bottom: 1px dashed #657584;
-}
-
-.col-4>li>a, .col-2>li>a{
-    padding: 10px 0px;
-    display: block;
-}
-
-.col-4 li:first-child{
-    border-bottom:0;
-}
-
 footer input[type="submit"]:hover {
     background: #eee;
     color:#000;
@@ -521,15 +522,20 @@ footer input[type="submit"]:hover {
 }
 
 .col-3 {
-    float: left;
     max-width: 33%;
+    width:33%;
+    margin: 0 2%;
 }
 
 .videopage .col-3 {
     margin: 20px 0;
 }
 
-.col-4, .col-2{
+.videopage .row .col-3 p {
+    margin-top: 15px;
+}
+
+.col-4, .col-2, .col-3{
     float: left;
 }
 
@@ -541,6 +547,19 @@ footer input[type="submit"]:hover {
 .col-2 {
     width: 49%;
     margin: 0 1%;
+}
+
+footer .col-3>li {
+    border-bottom: 1px dashed #657584;
+}
+
+footer .col-3>li>a, .col-2>li>a{
+    padding: 10px 0px;
+    display: block;
+}
+
+footer .col-3 li:first-child{
+    border-bottom:0;
 }
 
 .col-6 {
@@ -566,9 +585,9 @@ footer input[type="submit"]:hover {
 }
 
 iframe {
-    margin-left: 350px;
-    width: 500px;
-    height: 300px;
+    margin:0 auto;
+    height:500px;
+    width: 100%;
     border-width: thin;
     border-style: solid;
     border-color: #344a5f;
@@ -580,14 +599,12 @@ iframe {
     border-radius: 50%;
 }
 
-.col-4:first-child{
-    margin-left:0;
-    width:30%;
+footer .col-3:first-child{
+    margin:0;
 }
 
-.col-4:last-child{
-    margin-right:0;
-    width:60%;
+footer .col-3:last-child {
+    margin:0;
 }
 
 @media only screen and (max-width: 992px) {
@@ -596,16 +613,22 @@ iframe {
     }
     .col-4, .col-4:first-child, .col-4:last-child {
         width:48%;
-        margin: 10px 1%;
+        margin: 25px 1%;
+    }
+    .col-3 {
+        max-width:100%;
+        margin: 25px 0;
+        width:100%;
     }
 }
 
 @media only screen and (max-width: 768px) {
-    .col-4, .col-2 {
+    .col-4, .col-2, .col-3 {
         width: 100% !important;
         float:none;
         padding:15px 0;
         margin:0 !important;
+        max-width:100%;
     }
     footer .col-2{
         text-align: center !important;
