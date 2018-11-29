@@ -343,14 +343,24 @@ main {
     margin-top: 55px;
 }
 
-/* border-top: 1px solid #f0f0f0; */
 .breadCrumbs {
-    background-repeat: no-repeat;
-    background-image: url(../img/breadcrumbs.jpg);
     background-size: cover;
     height: 350px;
     background-position-y: center;
     background-position-x: right;
+    background-repeat: no-repeat;
+}
+
+.breadCrumbs-forum {
+    background-image: url("../img/breadcrumbs-forum.jpg");
+}
+
+.breadCrumbs-home {
+    background-image: url(../img/breadcrumbs-home.jpg);
+}
+
+.breadCrumbs-overons {
+    background-image: url(../img/breadcrumbs-overons.jpg);
 }
 
 main section {
