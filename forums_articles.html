@@ -68,7 +68,7 @@
 
             <span class="navigation">
                 <a href="forums.html">Home</a>
-                <a href="forums_articles.html">Categorie</a>
+                <a href="forums_articles.html">Categorienaam</a>
             </span>
 
             <form class="contentFilter">
@@ -81,10 +81,10 @@
                     <label>Selecteer rubriek</label>
                     <select name="rubriek">
                         <option selected>Geen</option>
-                        <option>Optie 1</option>
-                        <option>Optie 2</option>
-                        <option>Optie 3</option>
-                        <option>Optie 4</option>
+                        <option>Bulldog</option>
+                        <option>Jack Russel</option>
+                        <option>Chihuahua</option>
+                        <option>Labrador</option>
                     </select>
                 </span>
             </form>
@@ -101,7 +101,7 @@
 
                 <tbody>
                     <tr>
-                        <td><h3><a href="forums_view.html">Hier heb ik ook last van!</a></h3></td>
+                        <td><h3><a href="forums_view.html">Mijn lieve hond bella is ziek</a></h3></td>
                         <td><p>29/11/2018 - 10:46</p></td>
                         <td><p><a href="#">Brian Postma</a></p></td>
                         <td><p>29/11/2018 - 10:52</p></td>
@@ -117,14 +117,22 @@
             <input type="checkbox" id="showArtikel" role="button">
 
             <form id="artikelWeergave">
-                <input type="text" name="bijdrageTitel" placeholder="Schrijf hier uw titel">
-                <select name="bijdrageCategorie">
-                    <option>Categorie 1</option>
-                    <option>Categorie 2</option>
-                    <option>Categorie 3</option>
-                    <option>Categorie 4</option>
+                <label>Titel</label>
+                <input type="text" name="articleTitle" placeholder="Schrijf hier uw titel">
+
+                <label>Selecteer categorie</label>
+                <select name="articleCategorie">
+                    <option selected>Geen</option>
+                    <option>Bulldog</option>
+                    <option>Jack Russel</option>
+                    <option>Chihuahua</option>
+                    <option>Labrador</option>
                 </select>
+
+                <label>Beschrijf hier uw tekst</label>
                 <textarea name="bijdrageText" placeholder="Schrijf hier uw tekst"></textarea>
+
+                <input type="submit" name="articlePost" value="Verzenden">
             </form>
 
         </section>

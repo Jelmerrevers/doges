@@ -263,15 +263,6 @@ li:hover .navVideos, li:hover .navForums{
     padding: 10px 25px 10px 25px;
     display: block;
 }
-.searchBox {
-    opacity:0;
-    visibility: hidden;
-}
-.searchBox input{
-    border: 0;
-    padding: 23px;
-    width: 300px;
-}
 
 .show-menu {
     color: #fff;
@@ -282,7 +273,7 @@ li:hover .navVideos, li:hover .navForums{
     cursor: pointer;
 }
 
-nav input[type=checkbox]{
+nav input[type=checkbox], .bijdrageSchrijven input[type="checkbox"], #artikelWeergave{
     display: none;
 }
 
@@ -409,6 +400,7 @@ main section:first-child {
     overflow:auto;
     margin: 25px 0;
 }
+
 .navigation {
     width: 100%;
     display: block;
@@ -520,18 +512,17 @@ main section:first-child {
     overflow:auto;
 }
 
-bijdrageSchrijven input[type="checkbox"]:checked ~ #artikelWeergave {
+.bijdrageSchrijven input[type="checkbox"]:checked ~ #artikelWeergave {
     display:block;
+    overflow: auto;
+    width: 100%;
 }
 
 .bijdrageSchrijven>label {
     text-align: center;
     width: 220px;
     float: right;
-}
-
-.bijdrageSchrijven input[type="checkbox"], #artikelWeergave {
-    display:none;
+    margin: -25px 0 25px 0;
 }
 
 @media only screen and (max-width: 768px) {
@@ -688,12 +679,6 @@ footer .col-3 li:first-child{
     width:100%;
     max-width: 350px;
     height: 200px;
-    max-height:auto;
-    max-width: auto;
-}
-.overonspage {
-    max-height:auto;
-    max-width: auto;
 }
 
 .overonspage p {
