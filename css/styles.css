@@ -81,6 +81,10 @@ a{
     transition: 0.2s;
 }
 
+.a-invert {
+    color:#344a5f;
+}
+
 a:hover{
     color: #ff4d4d !important;
 }
@@ -306,7 +310,7 @@ nav input[type=checkbox]:checked ~ #menu{
         padding:0 0 0 15px;
     }
     nav>a>img {
-        margin: 6px 0px 0px 5px;
+        margin: 3px 0px 0px 5px;
     }
 }
 
@@ -521,6 +525,27 @@ main section:first-child {
     width: 220px;
     float: right;
     margin: -25px 0 25px 0;
+}
+
+.bijdrageSchrijven-withLogin {
+    border-top: 1px solid #cecece;
+}
+
+.welcomeMessage>.row {
+    margin:25px 0;
+    text-align: center;
+}
+
+.welcomeMessage>.row>.col-3>a>img {
+    max-width: 100%;
+    width:100%;
+    border-radius:3px;
+}
+
+@media only screen and (max-width: 992px) {
+    .videopage {
+        text-align: center;
+    }
 }
 
 @media only screen and (max-width: 768px) {
