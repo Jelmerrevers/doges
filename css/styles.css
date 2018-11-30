@@ -174,7 +174,6 @@ header{
     width:100%;
     top:0;
     z-index:999;
-    box-shadow: 0px 8px 20px #0000004d;
 }
 
 nav {
@@ -246,7 +245,6 @@ nav>a>img{
     width: max-content;
     max-width: 320px;
     border-top:1px solid #6e7b88;
-    box-shadow: 10px 10px 21px #0000004d;
     z-index:2;
 }
 
@@ -428,7 +426,7 @@ main section:first-child {
 }
 
 .forumPage table>tbody>tr:nth-of-type(odd) {
-    background: #ffffff61;
+    background: #ffffff;
 }
 
 .forumPage table thead {
@@ -554,9 +552,6 @@ main section:first-child {
     }
 }
 
-
-
-
 /**
 ===================
 
@@ -568,7 +563,7 @@ main section:first-child {
 footer {
     background: #344a5f;
     padding:20px 0 20px 0;
-    color:#fff;
+    color:#ffffff;
     font-size:14px;
     position: relative;
 }
@@ -591,9 +586,9 @@ footer input[datatype="submit"]:hover {
 
 .copyrightFooter {
     margin: 20px 0 5px 0;
-    border-top: 1px solid #f0f0f042;
+    border-top: 1px solid #ffffff;
     padding: 20px 0 0 0;
-    color: #fff;
+    color: #ffff;
     overflow: hidden;
 }
 
