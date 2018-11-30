@@ -116,24 +116,29 @@
             <label for="showArtikel">Schrijf een nieuw artikel.</label>
             <input type="checkbox" id="showArtikel" role="button">
 
-            <form id="artikelWeergave">
-                <label>Titel</label>
-                <input type="text" name="articleTitle" placeholder="Schrijf hier uw titel">
+            <div id="artikelWeergave">
 
-                <label>Selecteer categorie</label>
-                <select name="articleCategorie">
-                    <option selected>Geen</option>
-                    <option>Bulldog</option>
-                    <option>Jack Russel</option>
-                    <option>Chihuahua</option>
-                    <option>Labrador</option>
-                </select>
+                <h2>Schrijf hier je artikel</h2>
 
-                <label>Beschrijf hier uw tekst</label>
-                <textarea name="bijdrageText" placeholder="Schrijf hier uw tekst"></textarea>
+                <form>
+                    <label>Titel</label>
+                    <input type="text" name="articleTitle" placeholder="Schrijf hier uw titel">
 
-                <input type="submit" name="articlePost" value="Verzenden">
-            </form>
+                    <label>Selecteer categorie</label>
+                    <select name="articleCategorie">
+                        <option selected>Geen</option>
+                        <option>Bulldog</option>
+                        <option>Jack Russel</option>
+                        <option>Chihuahua</option>
+                        <option>Labrador</option>
+                    </select>
+
+                    <label>Beschrijf hier uw tekst</label>
+                    <textarea name="bijdrageText" placeholder="Schrijf hier uw tekst"></textarea>
+
+                    <input type="submit" name="articlePost" value="Verzenden">
+                </form>
+            </div>
 
         </section>
     </div>
